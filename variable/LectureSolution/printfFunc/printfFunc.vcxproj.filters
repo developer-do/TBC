@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lecture1.c">
+    <ClCompile Include="printfFunc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

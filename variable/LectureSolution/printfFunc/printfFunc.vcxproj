@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2ad44fea-2f50-43bc-bf9f-5bf9675a878e}</ProjectGuid>
-    <RootNamespace>Lecture1</RootNamespace>
+    <ProjectGuid>{88a0f1eb-6c9a-4655-9d6f-7af2f1fd6277}</ProjectGuid>
+    <RootNamespace>printfFunc</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lecture1.c" />
+    <ClCompile Include="printfFunc.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
