@@ -5,17 +5,19 @@ int main() {
 	printf("\"The truth is ... \nI am Ironman.\"\n");
 	// escape sequence \n = new line
 
-	int x, y, z;
+	int x, y, sum;
 
 	x = 2321;
 	y = 3254;
 
-	z = x + y;
+	sum = x + y;
 
-	printf("\nThe anwser is %i.\n", z);
+	printf("\nThe anwser is %i.\n", sum);
 
-	printf("\n%i + %i = %i\n", x, y, z);
+	printf("\n%i + %i = %i\n", x, y, sum);
 	printf("\a");
-
+	/*
+		
+	*/
 	return 0;
 }
