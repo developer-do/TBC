@@ -6,24 +6,17 @@
 
 int main() 
 {
-	unsigned int u_max = UINT_MAX + 2;
-	unsigned int u_min = 0;
-	signed int i_max = INT_MAX;
-	signed int i_min = INT_MIN;
+	char c = 65;
+	short s = 200;
+	unsigned int ui = 3000000000U; // 3'000'000'000U
+	long l = 65537L;
+	long long ll = 12345678908642LL;	// 12'345'678'908'642ll
 
-	// printf("%u\n", sizeof(unsigned int));
-	printf("max of uint = %u\n", u_max);
-	printf("min of uint = %u\n", u_min);
-	printf("max of int = %d\n", i_max);
-	printf("min of int = %d\n", i_min);
-
-	// i to binary representation
-	char buffer[33];
-	_itoa(u_max, buffer, 2);
-
-	// print decimal and binary
-	printf("decimal: %u\n", u_max);
-	printf("binary: %s\n", buffer);
+	printf("char = %hhd, %d, %c\n", c, c, c);
+	printf("short = %hhd, %hd, %d\n", s, s, s);
+	printf("unsigned int = %u, %d\n", ui, ui);
+	printf("long = %ld, %hd\b", 1, 1);
+	printf("long long = %lld, %ld\n", ll, ll);
 
 	return 0;
 }
